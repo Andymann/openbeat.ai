@@ -33,12 +33,12 @@ Most of the API endpoints only work when you are logged in to your account. Whic
 ```
 /api/tracks/public  
 ```
-was the one that provided allisers's data. It has recently been disabled. In december 2025 it was still active. I did a test-query and retrieved roughly 40000 datasets containing userid, prompts and tracks. The authentication is done using a Bearer token. If  you want to get the data for all your tracks run the following command:
+was the one that provided all users's data. It has recently been disabled. In december 2025 it was still active. I did a test-query and retrieved roughly 40000 datasets containing userid, prompts and tracks. The authentication is done using a Bearer token. If  you want to get the data for all your tracks run the following command:
   
 ```
 TOKEN="getyourowntokenbycreatinganaccountandderivingitfromchromesnetworktoolsoranyotherwayaskaihowtodoit"
 curl -s "https://api.openbeat.ai/api/tracks/my-tracks" -H "Authorization: Bearer $TOKEN"
-````
+```
   
 Since the the app is running in Vite dev mode the raw source files are directly accessible and the endpoints can be derived from those files:  
 
