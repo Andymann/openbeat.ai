@@ -5,11 +5,11 @@ openbeat.ai is an AI based music.generation platform. It offers its services con
 [![Watch the video](https://img.youtube.com/vi/Kx0Gg2fkeII/maxresdefault.jpg)](https://www.youtube.com/watch?v=Kx0Gg2fkeII)
 
 
-Worse: Once logged in they allowed for download of data from every user: (songs, prompts, user-id) via a public API. The screenshot below shows an excerpt of the ~12MB json.file that I was able to retrieve last year. I was also able to download all tracks from every user created so far.
+Worse: Once logged in they allowed for download of data from every user: (songs, prompts, user-id) via a public API. The screenshot below shows an excerpt of the ~12MB json.file that I was able to retrieve last year. It contains roughly 23000 datasets. I was also able to download all tracks from every user created so far.
   
 ![screenshot](./images/openbeatai.jpg)
   
-This fortunately seems to have been deactivated.  
+This fortunately seems to have been deactivated around December 2025.  
 Nevertheless, I let AI do some poking and thought it's an okay thing to list their publically available endpoints.  
 I'll probably share other findings here, as well.  
   
@@ -38,12 +38,14 @@ Base URL: `https://openbeat.ai`
 | `/api/admin/login` | POST | No | Admin login |
 | `/api/admin` | GET | Yes | Admin panel data |
   
-Most of the API endpoints only work when you are logged in to your account. Which is sensible. The API  endpoint  
+Most of the API endpoints only work when you are logged in to your account. Which is sensible. This API  endpoint was the one that provided all users's data but it has been disabled.  
+
 ```
 /api/tracks/public  
 ```
-was the one that provided all users's data. It has recently been disabled. In december 2025 it was still active. I did a test-query and retrieved roughly 23000 datasets containing userid, prompts and tracks. The authentication is done using a Bearer token.  
+
   
+The authentication is done using a Bearer token.    
 If  you want to get the data for all your tracks run the following command:
   
 ```
