@@ -1,6 +1,6 @@
 # openbeat.ai
 
-openbeat.ai is an AI based music.generation platform. It offers its services connected with a one-time payment. I was one of the early adopters. Days later it has been identified as a scam. It was marketed as 'ethically trained' when in reality it was nothing more than a proxy for suno. 
+openbeat.ai is an AI based music-generation platform. It offers its services connected with a one-time payment (~50$ when I joined). I was one of the early adopters. A few days later it has been identified as a scam. It was marketed as 'ethically trained' when in reality it was nothing more than a proxy for suno. 
 
 [![Watch the video](https://img.youtube.com/vi/Kx0Gg2fkeII/maxresdefault.jpg)](https://www.youtube.com/watch?v=Kx0Gg2fkeII)
 
