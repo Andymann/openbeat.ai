@@ -1,6 +1,10 @@
 # openbeat.ai
 
-openbeat.ai has been identified as a scam. It was marketed as 'ethically trained' when in reality it was nothing more than a proxy for suno. Worse: Once logged in they allowed for download of data from every user: (songs, prompts, user-id) via a public API. This seems to have been deactivated.  
+openbeat.ai is an AI based music.generation platform. It offers its services connected with a one-time payment. I was one of the early adopters. Days later it has been identified as a scam. It was marketed as 'ethically trained' when in reality it was nothing more than a proxy for suno. Worse: Once logged in they allowed for download of data from every user: (songs, prompts, user-id) via a public API.  
+  
+![screenshot](./images/openbeatai.jpg)
+  
+This fortunately seems to have been deactivated.  
 Nevertheless, I let AI do some poking and thought it's an okay thing to list their publically available endpoints.  
 I'll probably share other findings here, as well.  
   
@@ -33,7 +37,9 @@ Most of the API endpoints only work when you are logged in to your account. Whic
 ```
 /api/tracks/public  
 ```
-was the one that provided all users's data. It has recently been disabled. In december 2025 it was still active. I did a test-query and retrieved roughly 40000 datasets containing userid, prompts and tracks. The authentication is done using a Bearer token. If  you want to get the data for all your tracks run the following command:
+was the one that provided all users's data. It has recently been disabled. In december 2025 it was still active. I did a test-query and retrieved roughly 23000 datasets containing userid, prompts and tracks. The authentication is done using a Bearer token.  
+  
+If  you want to get the data for all your tracks run the following command:
   
 ```
 TOKEN="getyourowntokenbycreatinganaccountandderivingitfromchromesnetworktoolsoranyotherwayaskaihowtodoit"
