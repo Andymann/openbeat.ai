@@ -1,6 +1,11 @@
 # openbeat.ai
 
-openbeat.ai is an AI based music.generation platform. It offers its services connected with a one-time payment. I was one of the early adopters. Days later it has been identified as a scam. It was marketed as 'ethically trained' when in reality it was nothing more than a proxy for suno. Worse: Once logged in they allowed for download of data from every user: (songs, prompts, user-id) via a public API.  
+openbeat.ai is an AI based music.generation platform. It offers its services connected with a one-time payment. I was one of the early adopters. Days later it has been identified as a scam. It was marketed as 'ethically trained' when in reality it was nothing more than a proxy for suno. 
+
+[![Watch the video](https://img.youtube.com/vi/Kx0Gg2fkeII/maxresdefault.jpg)](https://www.youtube.com/watch?v=Kx0Gg2fkeII)
+
+
+Worse: Once logged in they allowed for download of data from every user: (songs, prompts, user-id) via a public API. The screenshot below shows an excerpt of the ~12MB json.file that I was able to retrieve last year. I was also able to download all tracks from every user created so far.
   
 ![screenshot](./images/openbeatai.jpg)
   
@@ -8,7 +13,7 @@ This fortunately seems to have been deactivated.
 Nevertheless, I let AI do some poking and thought it's an okay thing to list their publically available endpoints.  
 I'll probably share other findings here, as well.  
   
-[![Watch the video](https://img.youtube.com/vi/Kx0Gg2fkeII/maxresdefault.jpg)](https://www.youtube.com/watch?v=Kx0Gg2fkeII)
+
   
 ## OpenBeat.ai API Endpoints
 This is a list of publicly available API  endpoints.
