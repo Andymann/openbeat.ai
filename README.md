@@ -5,7 +5,7 @@ openbeat.ai is an AI based music.generation platform. It offers its services con
 [![Watch the video](https://img.youtube.com/vi/Kx0Gg2fkeII/maxresdefault.jpg)](https://www.youtube.com/watch?v=Kx0Gg2fkeII)
 
 
-Worse: Once logged in they allowed for download of data from every user: (songs, prompts, user-id) via a public API. The screenshot below shows an excerpt of the ~12MB json.file that I was able to retrieve last year. It contains roughly 23000 datasets. I was also able to download all tracks from every user created so far.
+Worse: Once logged in they allowed for download of data from every user: (songs, prompts, user-id) via a public API. The screenshot below shows an excerpt of the ~12MB json.file that I was able to retrieve last year. It contains roughly 23000 datasets. I was also able to download all tracks from every user created so far. (Btw: openbeat.ai allows for download of your tracks as wav and/ or mp3. Have a closer look at audioUrl and audioUrlWav.)
   
 ![screenshot](./images/openbeatai.jpg)
   
